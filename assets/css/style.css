@@ -89,3 +89,20 @@
 .skillsLists .skillBox:hover{
     background-color: rgb(79, 79, 253);
 }
+
+/* projects */
+.projects{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.897);
+    height: 100vh;
+}
+
+.projects .projectsContent{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.projects .projectsContent .projectSubDesc{
+    letter-spacing: 2px;
+}
