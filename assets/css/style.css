@@ -166,4 +166,28 @@
 
 }
 
+@media all and (max-width: 950px) {
+    .about .aboutContent p{
+        font-size: 1em;
+    }
+
+    .skill{
+        height: 100%;
+    }
+    .skillsLists{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+    .services{
+        height: 100%;
+        padding-bottom: 1.5em;
+    }
+    .services .servicesContent .listServices{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+
 
