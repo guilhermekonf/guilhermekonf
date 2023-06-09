@@ -106,3 +106,64 @@
 .projects .projectsContent .projectSubDesc{
     letter-spacing: 2px;
 }
+
+.services{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.897);
+    height: 100vh;
+    clear: both;
+}
+.services .servicesContent{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services .servicesContent .listServices{
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+}
+.services .servicesContent .listServices .servicesBox{
+    padding: 1em 1em;
+    border-top: 1px solid rgb(79, 79, 253);
+    background-color: #3E2C41;
+}
+.services .servicesContent .listServices .servicesBox:hover{
+    background-color: rgb(79, 79, 253);
+}
+.services .servicesContent .listServices .servicesBox:hover .serviceHeader h3{
+    color: aliceblue!important;
+}
+
+.services .servicesContent .listServices .servicesBox .serviceHeader{
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 2em;
+ 
+}
+
+.services .servicesContent .listServices .servicesBox .serviceHeader h3{
+    font-weight: 300;
+}
+
+.services .servicesContent .listServices .servicesBox .serviceBody{
+    text-align: center;
+    color: aliceblue;
+    letter-spacing: 2px;
+}
+
+.siteFooter{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(79, 79, 253);
+    padding: 1em 0;
+    text-align: center;
+    color: aliceblue;
+    letter-spacing: 2px;
+
+}
+
+
