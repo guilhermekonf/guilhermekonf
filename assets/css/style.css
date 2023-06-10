@@ -189,5 +189,18 @@
     }
     
 }
-
+@media all and (max-width: 540px) {
+    .skillsLists{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+@media all and (max-width: 420px) {
+    .skillsLists{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
 
